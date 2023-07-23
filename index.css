@@ -1,0 +1,101 @@
+body {
+margin: 0;
+font-family: 'poppins',sans-serif;
+color:#fff;
+background: #161616;
+}
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+
+}
+p {
+   font-size:0.9em;
+   max-width:35em;
+   line-height: 27px;
+}
+
+h1,h2 {
+   font-weight:300;
+    
+}
+
+h1{
+  margin: 0.5em 0;
+  font-size: 3em;
+}
+.specs h2, .about h2{
+font-size: 2em;
+padding-left: 1.2em;
+border-left: 0.1em #5bc7ca solis;
+}
+
+ul {
+ list-style:none;
+}
+
+a {
+  text-decorarion: none;
+  color: #fff;
+}
+
+section {
+  padding: 2.5em;
+}
+
+/* set all flex layouts */
+nav, .infos, .info,
+.specs-header, .specs li,
+.stats {
+  display: flex;
+  justify-content: sapce-between;
+align-items:center;
+}
+
+.specs, .icon,
+.panel:first-child{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+height: 100vh;
+min-height: 30em;
+background:
+  url(⁨banner.jpg)/* image */
+  no-repeat center;
+ background-size:cover;
+ display:flex;
+ flex-direction: column;
+}
+/* ===Navbar=== */
+nav{
+   padding: 1.5em 2.5em;
+   position:relative;
+
+}
+.menu-btn {
+   display: none;
+
+}
+.brand {
+   font-size: 1.3em;
+}
+nav li{
+  display: inline-block;
+  margin: 0 0.8em;
+text-align: center;
+
+}
+
+nav a{
+  color:#fff;
+}
+nav a:hover {
+  color: #eee;
+}
+.header-body {
+ padding: 2.5em;
+}
